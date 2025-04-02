@@ -7,7 +7,7 @@ SDK_ROOT := $(PROJ_DIR)/SDK/12.3.0_d7731ad
 SD_PATH  := $(SDK_ROOT)/components/softdevice/s130
 
 $(OUTPUT_DIRECTORY)/nrf51822_xxaa.out: \
-  LINKER_SCRIPT  := $(SDK_ROOT)/gcc_nrf51.ld
+  LINKER_SCRIPT  := $(SDK_ROOT)/gcc_nrf51-16K.ld
 
 # Source files common to all targets
 SRC_FILES += \
