@@ -83,3 +83,4 @@ _build/
 RTE_Components.h
 EventRecorderStub.scvd
 JLinkLog.txt
+.DS_Store
